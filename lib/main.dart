@@ -17,7 +17,7 @@ class CSCM extends StatelessWidget {
     return MaterialApp(
       title: "CSCM - CPU Database",
       home: const MyHomePage(),
-      theme: ThemeData(primarySwatch: Colors.red),
+      theme: ThemeData(primarySwatch: Colors.blue),
     );
   }
 }
@@ -46,62 +46,62 @@ class _MyHomePageState extends State<MyHomePage> {
           padding: const EdgeInsets.all(8.0),
           child: Column(
             children: [
-              ContainerBox("Computer Science and Technology", Colors.orange,
+              ContainerBox("Computer Science and Technology", Colors.lightBlue,
                   100, 10, 24),
               SizedBox(
                 height: 5,
               ),
-              MoneyBox("Number of Teacher", 10, Colors.red, 70),
+              MoneyBox("Number of Teacher", 10, Colors.lightBlueAccent, 70),
               SizedBox(
                 height: 5,
               ),
-              MoneyBox("Number of Student", 50, Colors.orange, 70),
+              MoneyBox("Number of Student", 50, Colors.lightBlue, 70),
               SizedBox(
                 height: 10,
               ),
-              ContainerBox("รายชื่อนักศึกษาคณะวิทย์ฯ", Colors.red, 35, 10, 15),
+              ContainerBox("รายชื่อนักศึกษาคณะวิทยาศตร์และเทคโนโลยี", Colors.purple, 35, 10, 15),
               SizedBox(
                 height: 10,
               ),
               ContainerBox2(
-                  "Nopparat Munsuwan",
+                  "Mongkhonrat Saisakun",
                   "Computer Scinence",
-                  "099-218-xxxx",
-                  "assets/images/profile.jpg",
-                  Colors.white,
+                  "082-250-xxxx",
+                  "assets/images/kn1.jpg",
+                  Colors.pinkAccent,
                   100,
                   10),
               SizedBox(
                 height: 5,
               ),
               ContainerBox2(
-                  "Tony Munsuwan",
+                  "Jaruna pasu ",
                   "Computer Multimedia",
-                  "089-288-xxxx",
-                  "assets/images/Darkknight_cd.jpg",
-                  Colors.white,
+                  "082-123-xxxx",
+                  "assets/images/kn2.jpg",
+                  Colors.pinkAccent,
                   100,
                   10),
               SizedBox(
                 height: 5,
               ),
               ContainerBox2(
-                  "Janata Duangcomjan",
-                  "Computer Multimedia",
-                  "059-698-xxxx",
-                  "assets/images/inception.jpg",
-                  Colors.white,
-                  100,
-                  10),
-              SizedBox(
-                height: 5,
-              ),
-              ContainerBox2(
-                  "Prayut JanOCha",
+                  "Phutah tomon",
                   "Computer Science",
-                  "068-236-xxxx",
-                  "assets/images/logo.png",
-                  Colors.white,
+                  "090-456-xxxx",
+                  "assets/images/kn3.png",
+                  Colors.pinkAccent,
+                  100,
+                  10),
+              SizedBox(
+                height: 5,
+              ),
+              ContainerBox2(
+                  "Polo Yohs",
+                  "Computer Science",
+                  "087-789-xxxx",
+                  "assets/images/kn4.jpg",
+                  Colors.pinkAccent,
                   100,
                   10),
             ],

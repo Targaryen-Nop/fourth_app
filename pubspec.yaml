@@ -68,6 +68,10 @@ flutter:
     - assets/images/Darkknight_cd.jpg
     - assets/images/endgame.png
     - assets/images/inception.jpg
+    - assets/images/kn1.jpg
+    - assets/images/kn2.jpg
+    - assets/images/kn3.png
+    - assets/images/kn4.jpg
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
 
